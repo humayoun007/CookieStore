@@ -1,0 +1,22 @@
+﻿PM> add-migration CookiesDatabaseMigration
+
+PM> update-database
+
+PM> Add-Migration Feedback
+
+PM> Add-Migration AuthenticationAdded
+
+PM> update-database
+
+
+
+===================== Additional Info below ==============
+============ google authentication credential ==========
+
+Set OAuth 2.0 in here: https://console.developers.google.com/apis/credentials
+
+======== Previous Sample Credential , Now it is deleted , But this key value pair is needed in secrets.json by right click in vs and  select "manage user secret" =============
+ "Authentication:Google:ClientId": "416726207576-g5n96drq8pnoejatiok7p39ii49ubmmb.apps.googleusercontent.com",
+ "Authentication:Google:ClientSecret": "piYfqQKUGLKpR5Ajd8Ew7_2_"
+
+ ==================== 
